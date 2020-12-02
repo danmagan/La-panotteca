@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>La Panotteca</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&family=Satisfy&display=swap" rel="stylesheet"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+	<header class="main-header">
+		<div class="container container--flex">
+			<div class="logo-container column column--50">
+				<h1 class="logo">La Panotteca</h1>
+			</div>
+
+			<div class="main-header__contact-info column column--50">
+				<p class="main-header__contact-info__phone"><span><i class="fas fa-phone-alt"></i> 111-111-111</span></p>
+				<p class="main-header__contact-info__adress"><span><i class="fas fa-map-marker-alt"></i> Av de los incas 1233, CABA.</span></p>
+			</div>
+		</div>
+	</header>
+
+	<nav class="main-nav">
+		<div class="container container--flex">
+			<span class="icon-menu"><i class="fas fa-bars boton" id="btn-menu"></i></span>
+			<ul class="menu" id="menu">
+				<li class="menu__item"><a href="index.html" class="menu__link--select">Inicio</a></li>
+				<li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">Galeria</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">Contacto</a></li>
+			</ul>
+
+			<div class="social-icon">
+				<a href="#" class="social-icon__link"><i class="fab fa-facebook"></i></a>
+				<a href="#" class="social-icon__link"><i class="fab fa-twitter"></i></a>
+				<a href="#" class="social-icon__link"><i class="fas fa-envelope"></i></a>
+			</div>
+		</div>
+	</nav>
+
+	<section class="banner">
+		<img src="img/fast.jpg" alt="fast-food" class="banner__img">
+		<div class="banner__content">Especialistas en Carnes y Pastas</div>
+	</section>
+
+	<main class="main">
+		<section class="group group--color">
+			<div class="container">
+				<h2 class="main__title">Bienvenido a La Panotteca</h2>
+				<p class="main__txt">Un clásico de Argentina tanto por la calidad de sus platos como por su servicio de excelencia.</p>
+			</div>
+		</section>
+		<section class="group main__about__description">
+			<div class="container container--flex">
+				<div class="column column--50">
+					<img src="img/ff.jpg" alt="food">
+				</div>
+				<div class="column column--50">
+					<h3 class="column__title">Un Clasico Gastronomico</h3>
+					<p class="column__txt">Atributos como prestigio, nivel y exclusividad hicieron posible la realidad del Mundo Panotteca, reconocido tanto a nivel nacional como internacional. La Panotteca te espera para que vivas una experiencia única e inigualable.</p>
+					<a href="#" class="btn btn-contact">Contacto</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="group today-special">
+			<h2 class="group__title">Especial de hoy</h2>
+			<div class="container container--flex">
+				<div class="column column--50-25">
+					<img src="img/plate (1).jpg" alt="" class="today-special__img">
+					<div class="today-special__title">Especial del dia 1</div>
+					<div class="today-special__price">$20.20</div>
+				</div>
+
+				<div class="column column--50-25">
+					<img src="img/plate (2).jpg" alt="" class="today-special__img">
+					<div class="today-special__title">Especial del dia 2</div>
+					<div class="today-special__price">$20.20</div>
+				</div>
+
+				<div class="column column--50-25">
+					<img src="img/plate (3).jpg" alt="" class="today-special__img">
+					<div class="today-special__title">Especial del dia 3</div>
+					<div class="today-special__price">$20.20</div>
+				</div>
+
+				<div class="column column--50-25">
+					<img src="img/plate (4).jpg" alt="" class="today-special__img">
+					<div class="today-special__title">Especial del dia 4</div>
+					<div class="today-special__price">$20.20</div>
+				</div>
+			</div>
+		</section>
+	</main>
+		<footer class="main-footer">
+			<div class="container container--flex">
+				<div class="column column--33">
+					<h2 class="column__title">¿Por que visitarnos?</h2>
+						<p class="column__txt">Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Magnam natus, voluptas minus cumque blanditiis id adipisci voluptatibus.</p>
+					
+				</div>
+				<div class="column column--33">
+					<h2 class="column__title">Contactanos</h2>
+						<p class="column__txt">AV. de los incas 1233, CABA</p>
+						<p class="column__txt">Telefono: 111-111-111</p>
+						<p class="column__txt">info@lapanotteca.com</p>
+					
+				</div>
+				<div class="column column--33">
+					<h2 class="column__title">Siguenos en nuestras redes sociales</h2>
+						<p class="column__txt"><a href="#"><i class="fab fa-facebook"></i>Nuestro Facebook</a></p>
+						<p class="column__txt"><a href="#"><i class="fab fa-twitter"></i>Siguenos en twitter</a></p>
+						<p class="column__txt"><a href="#"><i class="fab fa-youtube"></i>Visita nuestro canal</a></p>
+				</div>
+				<p class="copy">© 2020 La Panotteca | All right reserved.</p>
+			</div>
+		</footer>
+</body>
+<script src="js/script.js"></script>
+</html>
